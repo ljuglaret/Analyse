@@ -1,0 +1,12 @@
+
+#container .picture {
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transform: scale(1);
+    transition: all 0.3s ease-in-out 0s;
+    float:right; padding-left:2%;  width:45%;
+}
+
+#container .picture:hover {
+
+	transform: scale(1.7);
+}

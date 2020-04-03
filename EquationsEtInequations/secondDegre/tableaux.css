@@ -1,0 +1,16 @@
+table{
+    width:100%;
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;}
+
+
+thead,
+td{width:16.67%}
+tr{
+    border: 1px solid #333;
+}
+tfoot {
+    background-color:blueviolet;
+    color: #fff;
+}

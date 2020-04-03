@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="gaucheDroite.css" />
+        <link rel="stylesheet" href="tableaux.css" />
+        <link rel="stylesheet" href="zoom.css" />
+        <link rel="stylesheet" href="general.css" />
+
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+          </script>        
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+   </head>
+
+    <body>
+
+<h1>
+    Rappels - Vocabulaire</h1>
+
+    <p>
+        (d) : y = a*x+b 
+       <ul><li>a est le coefficient directeur</li>
+        <li>b est l'ordonnée à l'origine</li>
+        <li>(x,y) sont les points appartenant à la droite (d).</li> </ul>
+    
+  
+    </p>
+
+
+
+<div id="contenu">
+    <center style="font-size: large;text-decoration: underline wavy teal">
+        Exemples
+    </center>
+   
+    <div id="gauche">
+        <div style="float:left; padding-left:2%;  width:45%" >
+    <p>La droite d'équation y=-2*x+2 est décroissante.
+        <br>
+        son coefficient directeur est -2,et son ordonnée à l'origine est 2
+    </p>
+    <p>Son tableau de signe est le suivant</p>
+        <table style="width:100%" >
+
+            <tbody>
+                <tr>
+                    <td>x</td>
+                    <td></td>
+                    <td align="left" >-∞</td>
+                    <td align="right" > 1</td>
+                    <td></td>
+                    <td >+∞</td>
+                </tr>
+                <tr>
+                    <td>-2*x+2</td>
+                    <td ></td>
+                    <td align="right">+</td>
+                    <td align="right" >0</td>
+                    <td align="center">-</td>
+                    <td ></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+<div id="container">
+    <img class="picture" src="../Degre1/decroissant.png">
+</div>                
+
+    </div>
+
+
+
+    <div id="droite">
+        <div style="float:left; padding-left:2%;  width:45%" >
+
+        <p>La droite d'équation y=2*x-6 est croissante.
+
+            son coefficient directeur est 2,et son ordonnée à l'origine est -6
+        </p>
+    <p>Son tableau de signe est le suivant</p>
+        <table style="float: left;width: 100%;">
+            <tbody>
+                <tr>
+                    <td>x</td>
+                    <td></td>
+                    <td align="left" >-∞</td>
+                    <td align="right" > 3</td>
+                    <td></td>
+                    <td >+∞</td>
+                </tr>
+                <tr>
+                    <td>2*x-6</td>
+                    <td ></td>
+                    <td align="right">-</td>
+                    <td align="right" >0</td>
+                    <td align="center">+</td>
+                    <td ></td>
+                </tr>
+            </tbody>
+        </table>  
+        </div>
+
+        <div id="container">
+            <img class="picture"  src="../Degre1/croissant.png">
+        </div>                
+        
+</div>
+</div>
+
+
+<h1>Inéquation du premier degré </h1>
+<p style="float: left;">
+        $$\begin{align*}
+        &{a*x+b \leqslant c} \Longrightarrow {a*x \leqslant c-b } \\
+        &{a*x+b \leqslant c} \Longrightarrow {x \leqslant \frac{c-b} {a}} \\
+       \end{align*}$$    
+</p>
+
+<h1 style="clear: both;">
+    Inéquation du second degré
+   
+</h1>
+
+<h2>
+    Méthode graphique
+</h2>
+<p>Pour résoudre  a² = k on trace  deux droites f et g d'équations respectives : 
+    y = x² et  y = k.<br>
+    Les abscisses correspondants aux points d'intersection sont les solutions de 
+    l'équation
+</p>
+
+<p>
+    Pour résoudre  a² ≤ k on lit  sur l'axe des abscisses les valeurs pour lesquelles la courbe f est en dessous de la courbe g.
+    <br>De même pour résoudre a² ≥ k on lit  sur l'axe des abscisses les valeurs pour lesquelles la courbe f est au dessus de la courbe g.
+    </p>
+
+
+<p align="center"><iframe  src = "resolutionGraphique.html" width="700"  height="500">
+</iframe></p>
+
+<h2>
+    Méthode algébrique
+</h2>
+
+<div style="float: left;">
+    $$\begin{align*}
+    &x^2 \leqslant  k \Longrightarrow x^2-k\leqslant 0 \\
+    &x^2 \leqslant  k \Longrightarrow x^2-k\leqslant 0 \\
+  &x^2 \leqslant  k \Longrightarrow x^2-(\sqrt {k})^2\leqslant 0 \\
+  & x^2 \leqslant  k \Longrightarrow(x-\sqrt(k))(x+\sqrt(k))\leqslant 0 \\
+   
+   \text Soient\ k_1\ = \sqrt k\ et\ k_2\ = -\sqrt k\\
+   \end{align*}$$    
+ 
+</div>
+
+
+<div id="contenu">
+    <div id = "gauche">
+<table >
+
+    <tbody>
+        <tr>
+            <td>x</td>
+            <td >-∞</td>
+            <td align="right" >k1</td>
+            <td></td>
+            <td align="left">k2</td>
+            <td align="right">+∞</td> </tr>
+
+        <tr>
+            <td>x-k1</td>
+            <td align="right">-</td>
+            <td align="right">0</td>
+            <td align="center"> + </td>
+            <td></td>
+            <td align="left">+</td>
+           </tr>        
+            
+           <tr>
+            <td>x-k2</td>
+            <td align="right">-</td>
+            <td align="center"></td> 
+            <td align="center">-</td> 
+            <td align="left">0</td>
+            <td align="left">+</td>            
+
+        </tr>
+                <tr>
+            <td>(x-k1)*(x-k2)</td>
+            <td align="right">+</td>
+            <td align="right">0</td>
+            <td align="center">-</td>
+            <td align="left">0</td>
+            <td align="left">+</td>
+        </tr>  
+    </tbody>
+</table>
+
+    </div>
+<div id="droite">
+    Lecture du tableau
+
+    <p style="padding: 0%;">
+On cherche l'intervalle dans lequel la courbe représentative de la fonction carré est en dessous d'un réel k
+        $$\begin{align*}
+        &x^2\leqslant  k  \Longrightarrow  (x-\sqrt(k))(x+\sqrt(k))\leqslant 0 \\
+          &x^2\leqslant  k  \Longrightarrow  (x-\sqrt(k))(x+\sqrt(k))\leqslant 0 \\
+\end{align*}$$
+    </p>
+    <p>
+        On cherche l'intervalle dans lequel la courbe représentative de la fonction carré est au dessus d'un réel k
+        $$\begin{align*}
+        &x^2\geqslant  k  \Longrightarrow  (x-\sqrt(k))(x+\sqrt(k))\geqslant 0 \\
+        &x^2 \leqslant  k \Longrightarrow k \in[-\infty,k1]\cup [k2,+\infty] 
+        \end{align*}$$
+    </p>
+
+</div>
+</div>
+
+</body>
+</html>
